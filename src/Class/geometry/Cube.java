@@ -79,7 +79,6 @@ public class Cube extends Shape implements ShapeInterface {
             int[][] coordinate3d = get3dDrawPolygonCoordinate(super.get3dCoordinate());
             if (coordinate3d != null) {
                 g.drawPolygon(coordinate3d[0], coordinate3d[1], coordinate3d[0].length);
-//                System.out.println(g.getClipBounds());
             }
         }
     }

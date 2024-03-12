@@ -48,15 +48,15 @@ public class Grid extends javax.swing.JPanel {
                 shape.calc3dCoordinate(shape.getCoordinate());
             }
         }
-//        System.out.println(Camera.getInstance().x);
-//        System.out.println(Camera.getInstance().y);
-//        System.out.println(Camera.getInstance().z);
-//        System.out.println(Camera.getInstance().ax);
-//        System.out.println(Camera.getInstance().ay);
-//        System.out.println(Camera.getInstance().az);
-//        System.out.println(Camera.getInstance().areax);
-//        System.out.println(Camera.getInstance().areay);
-//        System.out.println(Camera.getInstance().areaz);
+        System.out.println(Camera.getInstance().x);
+        System.out.println(Camera.getInstance().y);
+        System.out.println(Camera.getInstance().z);
+        System.out.println(Camera.getInstance().ax);
+        System.out.println(Camera.getInstance().ay);
+        System.out.println(Camera.getInstance().az);
+        System.out.println(Camera.getInstance().areax);
+        System.out.println(Camera.getInstance().areay);
+        System.out.println(Camera.getInstance().areaz);
 
         super.repaint();
     }
